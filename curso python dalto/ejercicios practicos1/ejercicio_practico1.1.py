@@ -20,9 +20,10 @@ tiempo_vacio_dalto = 100 - curso_dalto * 1000 // crudo_dalto / 10
 
 #mostrando las diferencias de duracion (ejercicio a)
 print("----------------------")
-print(f'el curso de dalto dura un {diferencia_con_min}% menos que el curso mas rapido de la competencia')
-print(f'el curso de dalto dura un {diferencia_con_promedio}% menos que el curso promedio de la competencia')
-print(f'el curso de dalto dura un {diferencia_con_max}% menos que el curso mas largo de la competencia')
+print(f'el curso de dalto dura un:')
+print(f' - un {diferencia_con_min}% menos que el curso mas rapido de la competencia')
+print(f' - un {diferencia_con_promedio}% menos que el curso promedio de la competencia')
+print(f' - un {diferencia_con_max}% menos que el curso mas largo de la competencia')
 print("----------------------")
 
 #mostrando la cantidad de espacios vacios que se remueven  (ejercicio b)
