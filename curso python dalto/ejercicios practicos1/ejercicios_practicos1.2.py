@@ -9,7 +9,11 @@ cantidad_de_palabras = len(palabras_separadas)
 
 #en caso de que tarde mas de un minuto  en decir las palabras, se le dice que se detenga un poco   
 if cantidad_de_palabras > 120:
+<<<<<<< HEAD
     print("Loco amarrate la lengua!! hablas mas que radio fiao")
+=======
+    print("Loco amarrate la lengua halas mas que radio fiao")
+>>>>>>> 0ea8827b683656c4d834e6f249a6cae77b13b608
     
 #calculamos cuanto tarsaria en decir las palabras  y se lo decimos 
 print(f'Dijiste {cantidad_de_palabras} Palabras, y tardarias {cantidad_de_palabras/2} segundos para decirlo')
