@@ -28,8 +28,10 @@ def crear_contraseña_ramdom(num):
     c2 = num
     c3 = num - 5
     contraseña = f"{chars[c1]}{chars[c2]}{chars[c3]}{num*2}"
-    return contraseña
+    return contraseña,num
 
-password = crear_contraseña_ramdom(12)
-frase = f"Tu contraseña nueva es: {password}"
-print(frase)
+password,primer_numero = crear_contraseña_ramdom(718)
+
+print(f"Tu contraseña nueva es: {password}")
+
+print(f"el numero utilizado para crearla fue: {primer_numero}")
